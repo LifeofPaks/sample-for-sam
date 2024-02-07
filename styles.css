@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ============================HERO SECTION============================ */
+section {
+  padding: 36px 240px;
+}
+
+.hero {
+  background: #1f2937;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ============================LOGO SECTION============================ */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 35px;
+}
+.logo-text {
+  text-transform: uppercase;
+  color: white;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links a {
+  color: white;
+}
+
+.hero-main {
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  margin-bottom: 48px;
+}
+
+.hero-img {
+  width: 100%;
+}
+.hero-main-text {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.hero-subtext {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.hero-btn {
+  background: #3882f6;
+  padding: 10px 24px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* ============================INFO SECTION============================ */
+.info {
+  padding-top: 80px;
+}
+
+.info-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+  font-size: 36px;
+}
+
+.info-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.info-img {
+  width: 100%;
+}
+
+.info-text {
+  margin-top: 16px;
+}
+
+/* ============================TESTIMONIAL SECTION========================== */
+.testy {
+  background: #e5e7eb;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+  text-align: right;
+  margin-top: 32px;
+}
+
+/* CTA SECTION */
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.sec-btn {
+  padding: 10px 24px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.cta-container {
+  background: #3882f6;
+  width: 100%;
+  padding: 80px 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.cta-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.cta-text {
+  font-size: 18px;
+}
+
+/* ============================FOOTER SECTION============================ */
+
+footer {
+  background: #1f2937;
+  padding: 36px 240px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
